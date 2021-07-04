@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBody{
+    display: flex;
+    position: relative;
+}
+.mainBody .mainBody__left{
+    /* border: 1px solid green; */
+    padding-top: 10px;
+    z-index:1;
+    height:88vh;
+    width:fit-content;
+}
+.mainBody__left:hover{
+    box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.1);
+}
+
+.mainBody .mainBody__right{
+    position: absolute;
+    width: 100vw;
+    height:88vh;
+}

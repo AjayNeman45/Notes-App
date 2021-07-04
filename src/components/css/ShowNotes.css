@@ -1,0 +1,70 @@
+/************ show-note css  ****************/
+
+
+.note-card{
+    border:1px solid rgb(230, 226, 226);
+    border-radius: 10px;
+    width:250px;
+    height:auto;
+    margin:20px 30px;
+    padding:15px 20px;
+    position: relative;
+    font-family:'Open Sans', sans-serif;
+}
+.note-card .title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.note-card .note{
+    /* word-break: break-all; */
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    line-height: 3vh;
+    font-size: 20px;
+}
+.note-card .CheckCircleIcon{
+    position: absolute;
+    left:-8px;
+    top:-8px;
+    display: none;
+}
+.note-card:hover .CheckCircleIcon{
+    display: block;
+    color:gold;
+    transition: all 0.2s linear;
+}
+.note-card:hover{
+    box-shadow:1px 1px 7px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s linear;
+}
+.note-card .DeleteOutlineIcon{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: gold;
+} 
+
+.note-card .EditIcon{
+    position: absolute;
+    bottom: 10px;
+    left:60px;
+    font-size: 20px;
+    cursor: pointer;
+    color:gold;
+}
+
+html{
+    scroll-behavior : smooth;
+}
+
+@media (max-width:530px){
+    .note-card .title{
+        font-size: 18px;
+    }
+    .note-card .note{
+        font-size: 16px;
+    }
+}
+
+/************ show-note css end ****************/

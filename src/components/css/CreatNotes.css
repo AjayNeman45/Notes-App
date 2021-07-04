@@ -1,0 +1,80 @@
+ /************ creat-notes css  ****************/
+
+.mainDiv{
+    position: relative;
+    /* border:1px solid rgb(60, 218, 121); */
+    box-shadow:2px 2px 7px 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    margin:20px auto;
+    width: fit-content;
+}
+
+.user-input-div input{
+    /* border: 1px solid red; */
+    width:60vw;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding:15px 12px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.hidden-textArea textarea{
+    /* border: 1px solid blue; */
+    position: absolute;
+    border: none;
+    width:60vw;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    padding:12px;
+    color:gray;
+    word-wrap: break-word;
+    resize:none;
+}
+
+.add-icon-div{
+   position: absolute;
+   right:0;
+   bottom:0;
+   color:gold;
+   cursor: pointer;
+}
+.add-icon-div .add-icon{
+   font-size:40px;
+}
+@media (max-width:530px){
+    .user-input-div input{
+        width:70vw;
+        font-size: 20px;
+    }
+    .hidden-textArea textarea{
+        width:70vw;
+        font-size: 19px;
+    }
+}
+
+.show-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bulb-icon-div{
+    color:rgb(216, 216, 216);
+    text-align: center;
+    margin-top:130px;
+}
+.bulb-icon-div .bulb__icon{
+    transform: scale(5);
+}
+.bulb-icon-div p{
+    color:rgb(150, 150, 150);
+    font-family: 'Montserrat', sans-serif;
+    margin-top:50px;
+    font-size: 24px;
+}
+
+
+ /************ creat-notes css  end ****************/
